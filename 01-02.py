@@ -15,3 +15,4 @@ if mouse < kitten and mouse < tiger:
     print('The mouse weghts is the leaset')
 
 print(False > True)
+print('Jennifer' > 'Jenny')
