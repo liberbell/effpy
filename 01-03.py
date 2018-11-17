@@ -7,3 +7,4 @@ print(len(lastname))
 firstname.__len__()
 
 ages = [0, 11, 43, 12, 10]
+print(len(ages))
