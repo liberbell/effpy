@@ -4,3 +4,4 @@ print(min(PlayOneScore, PlayTwoScore))
 print(min(0, 12, -19))
 
 print(min('Kathryn', 'Katie'))
+print(min('Angela', 'Bob'))
