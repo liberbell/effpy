@@ -12,3 +12,7 @@ print(sorted(pointsInGame, reverse=True))
 
 leaderBoard = {231: 'CKL', 123: 'ABC', 432: 'JKC'}
 print(sorted(leaderBoard, reverse=True))
+print(leaderBoard.get(432))
+
+students = [('alice', 'B', 12), ('eliza', 'A', 16), ('tae', 'C', 15)]
+print(sorted(students, key=lambda student:student[0]))
