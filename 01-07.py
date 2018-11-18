@@ -17,3 +17,4 @@ print(leaderBoard.get(432))
 students = [('alice', 'B', 12), ('eliza', 'A', 16), ('tae', 'C', 15)]
 print(sorted(students, key=lambda student:student[0]))
 print(sorted(students, key=lambda student:student[1]))
+print(sorted(students, key=lambda student:student[2]))
