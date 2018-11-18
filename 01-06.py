@@ -17,3 +17,7 @@ print(abs(lengthOfRootInGround))
 chanceOfTails = 0.5
 inARowTails = 3
 print(pow(chanceOfTails, inARowTails))
+
+chanseOfOne = 0.167
+inARowOne =2
+print(pow(chanseOfOne, inARowOne))
