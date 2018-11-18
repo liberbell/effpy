@@ -1,0 +1,1 @@
+numberedContestants = range(30)
