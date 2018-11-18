@@ -11,7 +11,9 @@ class Truck(Car):
     pass
 
 c = Car()
+convert = Car()
 t = Truck()
 print(type(c))
 print(type(t))
 print(type(c) == type(t))
+print(type(c) == type(convert))
