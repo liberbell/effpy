@@ -7,3 +7,5 @@ print(min('Kathryn', 'Katie'))
 print(min('Angela', 'Bob'))
 
 print(max(PlayOneScore, PlayTwoScore))
+playThreeScore = 14
+print(max(playThreeScore, PlayTwoScore, PlayOneScore))
