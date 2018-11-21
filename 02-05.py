@@ -11,3 +11,9 @@ for c in itertools.cycle('RACECAR'):
     x = x + 1
     if x > 50:
         break;
+
+for r in itertools.repeat(True):
+    print(r)
+    x = x + 1
+    if x > 100:
+        break
