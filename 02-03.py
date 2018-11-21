@@ -9,4 +9,4 @@ if decider == 0:
 else:
     print('TAILS')
 
-print(random.randrange(1, 7))
+print('You rolled a ' + str(random.randrange(1, 7)))
