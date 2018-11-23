@@ -13,6 +13,6 @@ for arg in arguments:
         number = int(arg)
         sum = sum + number
     except Exception:
+        print('Bad input')
 
-
-    print(arg)
+print(sum)
