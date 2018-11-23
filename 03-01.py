@@ -9,4 +9,10 @@ print('Arguments:', sys.argv)
 arguments = sys.argv
 sum = 0
 for arg in arguments:
+    try:
+        number = int(arg)
+        sum = sum + number
+    except Exception:
+
+
     print(arg)
