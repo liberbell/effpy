@@ -1,4 +1,4 @@
 import sys
 
 print('Number of arguments:', len(sys.argv), 'arguments.')
-print('Arguments:', sys.argv, )
+print('Arguments:', sys.argv)
