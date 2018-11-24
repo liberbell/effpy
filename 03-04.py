@@ -1,5 +1,6 @@
 myFile2 = open('scores.txt', 'r')
 print('Reading...\n' + myFile2.read(10))
-myFile2.seek(0)
+myFile2.close()
+myFile2 = open('scores.txt', 'r')
 print('Reading again\n' + myFile2.read(10))
 myFile2.close()
