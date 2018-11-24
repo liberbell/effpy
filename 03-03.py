@@ -8,4 +8,5 @@ myFiles.close()
 
 myFile2 = open('scores.txt', 'r')
 print('Reading...\n' + myFile2.read(10))
+print('Reading again\n' + myFile2.read())
 myFile2.close()
