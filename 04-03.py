@@ -14,3 +14,6 @@ if testDate > myFirstdays:
 
 cal = calendar.month(2018, 11)
 print(cal)
+
+cal2 = calendar.weekday(2018, 11, 12)
+print(cal2)
