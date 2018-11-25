@@ -7,3 +7,5 @@ print(now.strftime('%b %B %m'))
 print(now.strftime('%A %B %d'))
 
 print(now.strftime('%H %M %S %p'))
+
+print(now.strftime('%y %Y'))
