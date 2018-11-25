@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta
+import calendar
 
 now = datetime.now()
 
@@ -10,3 +11,6 @@ print(myFirstdays.date())
 
 if testDate > myFirstdays:
     print('Comparison works')
+
+cal = calendar.month(2018, 11)
+print(cal)
