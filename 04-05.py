@@ -22,3 +22,6 @@ print()
 input = input('Put in HTML code')
 parser.feed(input)
 print()
+
+with open('sampleHTML.html', 'r') as f:
+    
