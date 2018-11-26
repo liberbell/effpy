@@ -16,5 +16,8 @@ class HTMLParser(HTMLParser):
         print('Data: ', data)
 
 parser = HTMLParser()
-parser.feed('<html><head><title>Coder</title></head><body><h1><!--h1-->I am a coder</h1></body></html>')
+parser.feed('<html><head><title>Coder</title></head><body><h1><!--hi-->I am a coder</h1></body></html>')
 print()
+
+input = input('Put in HTML code')
+parser.feed(input)
