@@ -7,3 +7,7 @@ streaming for anytime leaving.'''
 
 print('No Dedent:')
 print(textwrap.fill(websiteText))
+
+print('Dedent')
+
+print('Fill')
