@@ -18,3 +18,7 @@ print(textwrap.fill(dedent_text, width=100))
 
 print('controlling Indent')
 print(textwrap.fill(dedent_text, initial_indent='   ', subsequent_indent='  '))
+
+print('Short text')
+short = textwrap.shorten('LinkedIn.com is great!', width=15, placeholder='...')
+print(short)
