@@ -19,9 +19,12 @@ parser = HTMLParser()
 parser.feed('<html><head><title>Coder</title></head><body><h1><!--hi-->I am a coder</h1></body></html>')
 print()
 
-input = input('Put in HTML code')
-parser.feed(input)
-print()
+#input = input('Put in HTML code')
+# parser.feed(input)
+# print()
 
 with open('sampleHTML.html', 'r') as f:
-    
+    s = ''
+    for i in f:
+        s += i
+parser.feed(s)
